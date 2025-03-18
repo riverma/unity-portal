@@ -1,5 +1,5 @@
 ---
-name: New Feature
+name: New Featuree
 about: Suggest a new feature for us to implement
 title: '[New Feature]: '
 labels: 'enhancement'
