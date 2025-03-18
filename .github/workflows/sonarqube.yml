@@ -1,7 +1,6 @@
 # this workflow uses actions that are not certified by github.
 # they are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
+# separate terms of service, privacy policy, and support documentation.
 
 # this workflow helps you trigger a sonarqube analysis of your code and populates
 # github code scanning alerts with the vulnerabilities found.
@@ -45,6 +44,7 @@ jobs:
         # set up java 17 so that the sonar scanner runs with the required java version
         uses: actions/setup-java@v3
         with:
+          distribution: 'temurin'
           java-version: '17'
 
       - name: analyze with sonarqube
