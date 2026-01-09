@@ -23,7 +23,7 @@
     "react-oauth2-pkce": "^2.0.7",
     "react-redux": "^9.1.2",
     "react-resizable-panels": "^2.0.23",
-    "react-router-dom": "^6.26.0"
+    "react-router-dom": "^6.30.3"
   },
   "devDependencies": {
     "@nasa-jpl/react-stellar": "^1.1.11",
